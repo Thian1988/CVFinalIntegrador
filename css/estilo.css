@@ -1,0 +1,87 @@
+
+body {
+    font-family: open, sans-serif;
+    margin: 40px;
+}
+.encabezado {
+    background: linear-gradient(-3deg, grey, white, transparent);
+    border-radius: 2%;
+    max-width: 100%;
+    height: auto;
+}
+.divisionencabezado {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 100px;
+    padding: 50px 50px 0px 140px;
+}
+.centrado {
+    display: block;
+    margin: auto;
+}
+.nombre {
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.copete {
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.objetivodescrip {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.iconoredes {
+    max-width: 30px;
+    float: right;
+    padding: 20px 10px 30px 0px;
+}
+.fotoperfil {
+    max-width: 50%;
+    height: auto;
+    
+}
+.seccion {
+    background: linear-gradient(180deg, rgb(230, 230, 230), rgb(255, 255, 255));
+    border-radius: 20px;
+    height: auto;
+    padding: 50px;
+    margin: 50px 0px 200px 0px;
+}
+.tituloseccion {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    margin:0;
+    text-decoration: underline grey;
+    
+}
+.textosinternos {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin: 0;
+}
+.flotante {
+    position: fixed;
+    right: 180px;
+    top: 185px;
+}
+.botonflotante {
+    width: 50px;
+    display: block;
+    padding: 5px;
+}
+.altura {
+    height: 400px;
+}
+.firma {
+    float: right;
+padding-right: 400px;
+}
