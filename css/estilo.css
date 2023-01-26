@@ -13,6 +13,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 100px;
+    max-width: 100%;
     padding: 50px 50px 0px 140px;
 }
 .centrado {
@@ -43,7 +44,7 @@ body {
     padding: 20px 10px 30px 0px;
 }
 .fotoperfil {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     
 }
@@ -53,6 +54,7 @@ body {
     height: auto;
     padding: 50px;
     margin: 50px 0px 200px 0px;
+    max-width: 100%;
 }
 .tituloseccion {
     font-family: 'Roboto', sans-serif;
