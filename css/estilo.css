@@ -1,89 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
 
 body {
     font-family: open, sans-serif;
     margin: 40px;
 }
+
 .encabezado {
-    background: linear-gradient(-3deg, grey, white, transparent);
-    border-radius: 2%;
+    background: linear-gradient(180deg, rgb(255, 255, 255), rgb(230, 230, 230));
     max-width: 100%;
     height: auto;
+    margin: 0px, 0px, 200px, 80px; 
 }
+
 .divisionencabezado {
     display: grid;
+    padding: 50px 50px 0px 50px;
+    gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 100px;
-    max-width: 100%;
-    padding: 50px 50px 0px 140px;
 }
+
 .centrado {
-    display: block;
     margin: auto;
+    display: block;
 }
+
 .nombre {
-    font-family: 'Roboto', sans-serif;
-    font-weight:600;
-    font-size: 50px;
+    font-family: 'Roboto';
     margin-bottom: 15px;
+    font-weight:400;
+    font-size: 50px;
 }
+
 .copete {
-    font-family:'Roboto', sans-serif;
-    font-weight: 600;
+    font-family:'Roboto';
+    font-weight: 400;
     font-size: 25px;
     margin-bottom: 20px;
 }
+
 .objetivodescrip {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
     margin-bottom: 20px;
 }
+
 .iconoredes {
     max-width: 30px;
-    float: right;
     padding: 20px 10px 30px 0px;
 }
+
 .fotoperfil {
     max-width: 100%;
-    height: auto;
-    
+    height: auto;    
 }
+
 .seccion {
     background: linear-gradient(180deg, rgb(230, 230, 230), rgb(255, 255, 255));
+    margin: 50px 20px 200px 8px;
     border-radius: 20px;
     height: auto;
+    max-width: 90%;
     padding: 50px;
-    margin: 50px 0px 200px 0px;
-    max-width: 100%;
 }
+
 .tituloseccion {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 35px;
-    margin:0;
-    text-decoration: underline grey;
-    
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 25px;
+    margin:0;   
 }
+
 .textosinternos {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 19px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
     margin: 0;
 }
+
 .flotante {
     position: fixed;
-    right: 180px;
-    top: 185px;
+    right: 10px;
+    top: 10px;
 }
+
 .botonflotante {
     width: 50px;
     display: block;
     padding: 5px;
 }
+
 .altura {
-    height: 400px;
+    height: 200px;
+    margin: 200px;
+    max-width: 90%;
 }
+
 .firma {
-    float: right;
-padding-right: 400px;
+    float: none;
 }
+
+
+
